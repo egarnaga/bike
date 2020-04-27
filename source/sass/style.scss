@@ -1,0 +1,19 @@
+// Общие стили
+
+@import "normalize.scss";
+@import "fonts.scss";
+@import "visually-hidden.scss";
+@import "variables.scss";
+@import "scaffolding.scss";
+
+// Шапка
+
+@import "blocks/page-header.scss";
+
+// Основное содержимое
+
+@import "blocks/page-main.scss";
+
+// Подвал
+
+@import "blocks/page-footer.scss";
