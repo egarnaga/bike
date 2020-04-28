@@ -84,7 +84,7 @@ gulp.task("html", function () {
 
 gulp.task("copy", function () {
   return gulp.src([
-    "source/fonts/**/*.{woff,woff2}",
+    "source/fonts/**",
     "source/img/**",
     "source/js/**",
     "source//*.ico"
@@ -96,7 +96,7 @@ gulp.task("copy", function () {
 
 gulp.task("docs", function () {
   return gulp.src([
-    "build/fonts/**/*.{woff,woff2}",
+    "build/fonts/**",
     "build/img/**",
     "build/js/**",
     "build/*.html",
