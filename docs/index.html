@@ -59,6 +59,7 @@
           </ul>
         </div>
       </nav>
+
       <div class="about-us">
         <div class="about-us__wrapper">
           <a class="about-us__logo logo">
@@ -70,6 +71,7 @@
           </p>
         </div>
       </div>
+
       <div class="order">
         <h2 class="visually-hidden">Подобрать велосипед</h2>
         <div class="order__description">
@@ -140,7 +142,7 @@
 
       <section class="about-bike">
         <div class="about-bike__wrapper">
-          <div class="about-bike__wrapper-heading">
+          <div class="about-bike__heading">
             <h2>Виды велосипедов</h2>
           </div>
 
@@ -217,7 +219,44 @@
       </section>
 
       <section class="video">
-        <h2>Видео про велосипеды</h2>
+        <div class="video__wrapper">
+          <div class="video__heading">
+            <h2>Видео про велосипеды</h2>
+          </div>
+          <div class="video__description">
+            <p>В этом видео мы подробно расскажем про особенности выбора велосипеда для себя.</p>
+          </div>
+
+          <div class="video__image video__image--enabled">
+            <a class="video__link">
+              <picture>
+                <!-- 1x: 288px; 2x: 576px -->
+                <source type="image/webp" media="(max-width: 320px)" srcset="img/video-bike--mobile@1x.webp 1x, img/video-bike-mobile@2x.webp 2x">
+
+                <!-- 1x: 503px; 2x: 1006px -->
+                <source type="image/webp" media="(max-width: 768px)" srcset="img/video-bike-tablet@1x.webp 1x, img/video-bike-tablet@2x.webp 2x">
+
+                <!-- 1x: 929x; 2x: 1858px -->
+                <source type="image/webp" srcset="img/video-bike-desktop@1x.webp 1x, img/video-bike-desktop@2x.webp 2x">
+
+                <!-- 1x: 288px; 2x: 576px -->
+                <source media="(max-width: 320px)" srcset="img/video-bike-mobile@1x.jpg 1x, img/video-bike-mobile@2x.jpg 2x">
+
+                <!-- 1x: 503px; 2x: 1006px -->
+                <source media="(max-width: 768px)" srcset="img/video-bike-tablet@1x.jpg 1x, img/video-bike-tablet@2x.jpg 2x">
+
+                <!-- 1x: 929x; 2x: 1858px -->
+                <img src="img/video-bike-desktop@1x.jpg" srcset="img/video-bike-desktop@2x.jpg 2x" width="929" height="522" alt="Превью видео о велосипедах">
+              </picture>
+            </a>
+            <button class="video__button" type="button" aria-label="Запустить видео">
+              <svg class="video__button-img" width="65" height="65" aria-label="Включить видео">
+                <use xlink:href="#icon-btn-play"></use>
+              </svg>
+            </button>
+            <iframe class="video__media" allowfullscreen="" allow="autoplay" src="https://www.youtube.com/embed/1W_HfyszbiQ?rel=0&amp;showinfo=0&amp;autoplay=1&amp;enablejsapi=1"></iframe>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -256,13 +295,19 @@
           </div>
 
           <div class="contacts__wrapper-text">
-            <div class="contacts__email">
-              <h3 class="visually-hidden">Телефон</h3>
+            <div class="contacts__email email">
+              <h3 class="visually-hidden">Адрес нашей электронной почты</h3>
+              <svg class="email__icon" width="26" height="20" aria-label="Адрес нашей электронной почты">
+                <use xlink:href="#icon-email"></use>
+              </svg>
               <a href="mailto:puteshestviemechta@gmail.ru"><span>puteshestviemechta@gmail.ru</span></a>
             </div>
 
-            <div class="contacts__phone">
-              <h3 class="visually-hidden">Телефон</h3>
+            <div class="contacts__phone phone">
+              <h3 class="visually-hidden">Номер нашего телефона</h3>
+              <svg class="phone__icon" width="22" height="24" aria-label="Номер нашего телефона">
+                <use xlink:href="#icon-phone"></use>
+              </svg>
               <a href="tel:+749978468446"><span>+7 (499) -784-684-46</span></a>
             </div>
           </div>
