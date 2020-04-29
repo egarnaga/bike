@@ -21,7 +21,6 @@
     }
   });
 
-
   // Маска для номера телефона
 
   window.addEventListener('DOMContentLoaded', function () {
