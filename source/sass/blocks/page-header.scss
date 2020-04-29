@@ -22,26 +22,6 @@
   }
 }
 
-/* @media screen and (max-width: 768px) {
-  .page-header {
-    background-image: url("../img/bg-bike-tablet@1x.jpg");
-
-    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-      background-image: url("../img/bg-bike-tablet@2x.jpg");
-    }
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page-header {
-    background-image: url("../img/bg-bike-mobile@1x.jpg");
-
-    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-      background-image: url("../img/bg-bike-mobile@2x.jpg");
-    }
-  }
-} */
-
 .page-header__wrapper-about-us-and-order {
   display: flex;
   max-width: 880px;

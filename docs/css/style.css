@@ -384,25 +384,6 @@ body {
     .page-header {
       background-image: none; } }
 
-/* @media screen and (max-width: 768px) {
-  .page-header {
-    background-image: url("../img/bg-bike-tablet@1x.jpg");
-
-    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-      background-image: url("../img/bg-bike-tablet@2x.jpg");
-    }
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page-header {
-    background-image: url("../img/bg-bike-mobile@1x.jpg");
-
-    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-      background-image: url("../img/bg-bike-mobile@2x.jpg");
-    }
-  }
-} */
 .page-header__wrapper-about-us-and-order {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -485,9 +466,9 @@ body {
     .main-nav--opened .main-nav__toggle::before, .main-nav--opened .main-nav__toggle::after {
       content: "";
       position: absolute;
-      top: 25px;
-      right: 14px;
-      width: 20px;
+      top: 26px;
+      right: 12px;
+      width: 30px;
       height: 1px;
       background-color: rgba(20, 21, 23, 0.2); }
     .main-nav--opened .main-nav__toggle::before {
@@ -613,10 +594,25 @@ body {
     .about-us {
       background-image: url("../img/bg-bike-tablet@2x.jpg"); } }
 
+@media screen and (max-width: 320px) {
+  .about-us {
+    padding-bottom: 70px;
+    background-image: url("../img/bg-bike-mobile@1x.jpg");
+    background-position: center bottom;
+    background-size: cover; } }
+  @media screen and (max-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5), screen and (max-width: 320px) and (min-resolution: 144dpi), screen and (max-width: 320px) and (min-resolution: 1.5dppx) {
+    .about-us {
+      background-image: url("../img/bg-bike-mobile@2x.jpg"); } }
+
 @media screen and (max-width: 950px) {
   .about-us__logo {
     padding-left: 22px;
     padding-top: 24px; } }
+
+@media screen and (max-width: 320px) {
+  .about-us__logo {
+    padding-left: 17px;
+    padding-top: 25px; } }
 
 .about-us__heading h1 {
   margin: 0;
@@ -640,6 +636,11 @@ body {
     margin-bottom: 20px;
     text-align: center; } }
 
+@media screen and (max-width: 320px) {
+  .about-us__heading h1 {
+    margin-top: 97px;
+    margin-bottom: 18px; } }
+
 .about-us__description p {
   margin: 0;
   padding: 0;
@@ -659,6 +660,11 @@ body {
     max-width: 435px;
     margin: 0 auto;
     text-align: center; } }
+
+@media screen and (max-width: 320px) {
+  .about-us__description p {
+    padding-left: 20px;
+    padding-right: 20px; } }
 
 .logo {
   display: -webkit-box;
@@ -687,6 +693,12 @@ body {
     padding-top: 70px;
     padding-bottom: 70px; } }
 
+@media screen and (max-width: 767px) {
+  .order {
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 16px; } }
+
 .order__description p {
   max-width: 327px;
   margin: 0;
@@ -705,6 +717,14 @@ body {
     margin-bottom: 31px;
     font-size: 18px;
     color: #000000; } }
+
+@media screen and (max-width: 767px) {
+  .order__description p {
+    max-width: 100%; } }
+
+@media screen and (max-width: 320px) {
+  .order__description p {
+    margin-bottom: 20px; } }
 
 .form__field {
   margin-bottom: 21px; }
@@ -730,6 +750,14 @@ body {
     padding-top: 11px;
     padding-bottom: 10px;
     padding-left: 21px; } }
+
+@media screen and (max-width: 767px) {
+  .form__field input {
+    width: 100%; } }
+
+@media screen and (max-width: 320px) {
+  .form__field input {
+    padding-left: 25px; } }
 
 .form__field input:hover {
   opacity: 0.8; }
@@ -761,6 +789,13 @@ body {
     min-width: 321px;
     padding-bottom: 14px;
     padding-left: 50px; } }
+
+@media screen and (max-width: 767px) {
+  .button {
+    min-width: 250px;
+    width: 100%;
+    padding-left: 0;
+    text-align: center; } }
 
 .button span {
   font-family: "Overpass", "Arial", sans-serif;

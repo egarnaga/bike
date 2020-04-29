@@ -24,6 +24,14 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .order {
+    margin: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
 .order__description p {
   max-width: 327px;
   margin: 0;
@@ -44,5 +52,17 @@
     margin-bottom: 31px;
     font-size: 18px;
     color: #000000;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .order__description p {
+    max-width: 100%;
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .order__description p {
+    margin-bottom: 20px;
   }
 }

@@ -30,6 +30,15 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .button {
+    min-width: 250px;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
 
 .button span {
   font-family: "Overpass", "Arial", sans-serif;

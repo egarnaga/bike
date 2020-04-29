@@ -29,6 +29,17 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .form__field input {
+    width: 100%;
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .form__field input {
+   padding-left: 25px;
+  }
+}
 
 .form__field input:hover {
   opacity: 0.8;
