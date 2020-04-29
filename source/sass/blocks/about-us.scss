@@ -1,3 +1,26 @@
+@media  screen and (max-width: 950px) {
+  .about-us {
+    margin-top: -1px;
+    padding-bottom: 79px;
+
+    background-color: #171717;
+    background-image: url("../img/bg-bike-tablet@1x.jpg");
+    background-position: center bottom;
+    background-size: cover;
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../img/bg-bike-tablet@2x.jpg");
+    }
+  }
+}
+
+@media  screen and (max-width: 950px) {
+  .about-us__logo {
+    padding-left: 22px;
+    padding-top: 24px;
+  }
+}
+
 .about-us__heading h1 {
   margin: 0;
   padding: 0;
@@ -9,6 +32,21 @@
   line-height: 64px;
   letter-spacing: -0.005em;
   color: #FFFFFF;
+}
+
+@media  screen and (max-width: 1000px) {
+  .about-us__heading h1 {
+    font-size: 30px;
+    line-height: 42px;
+  }
+}
+
+@media  screen and (max-width: 950px) {
+  .about-us__heading h1 {
+    margin-top: 110px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 }
 
 .about-us__description p {
@@ -23,3 +61,19 @@
 
   opacity: 0.8;
 }
+
+@media  screen and (max-width: 1000px) {
+  .about-us__description p {
+    font-size: 18px;
+  }
+}
+
+@media  screen and (max-width: 950px) {
+  .about-us__description p {
+    max-width: 435px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+

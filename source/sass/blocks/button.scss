@@ -22,6 +22,15 @@
   opacity: 0.5;
 }
 
+@media  screen and (max-width: 950px) {
+  .button {
+    min-width: 321px;
+    padding-bottom: 14px;
+    padding-left: 50px;
+  }
+}
+
+
 .button span {
   font-family: "Overpass", "Arial", sans-serif;
   font-style: normal;
@@ -32,3 +41,14 @@
   letter-spacing: 0.5px;
   color: #000000;
 }
+
+@media  screen and (max-width: 950px) {
+  .button span {
+    font-family: "Open Sans", "Arial", sans-serif;
+    line-height: 21px;
+    font-weight: 600;
+    letter-spacing: 0;
+  }
+}
+
+

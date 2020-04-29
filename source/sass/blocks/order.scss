@@ -3,7 +3,29 @@
   padding-top: 5px;
 }
 
+@media  screen and (max-width: 1200px) {
+  .order {
+    margin-left: 86px;
+  }
+}
+
+@media  screen and (max-width: 1000px) {
+  .order {
+    margin-left: 76px;
+  }
+}
+
+@media  screen and (max-width: 950px) {
+  .order {
+    margin-left: 0;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
 .order__description p {
+  max-width: 327px;
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
@@ -14,4 +36,13 @@
   text-align: center;
   letter-spacing: -0.005em;
   color: #FFFFFF;
+}
+
+@media  screen and (max-width: 950px) {
+  .order__description p {
+    max-width: 321px;
+    margin-bottom: 31px;
+    font-size: 18px;
+    color: #000000;
+  }
 }

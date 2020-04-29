@@ -7,8 +7,143 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+@media  screen and (max-width: 1200px) {
+  .main-nav {
+    max-width: 660px;
+  }
+}
+
 .main-nav__toggle {
   margin: 0;
   padding: 0;
   display: none;
 }
+
+
+@media screen and (max-width: 950px) {
+
+  .main-nav__toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 12;
+
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    background-color: #0AD9C6;
+
+    cursor: pointer;
+    border: none;
+  }
+
+  .main-nav__toggle:hover {
+    opacity: 0.8;
+  }
+
+  .main-nav__toggle:active {
+    opacity: 0.5;
+  }
+
+  .main-nav--closed .main-nav__toggle::before {
+    content: "";
+
+    position: absolute;
+    top: 19px;
+    right: 14px;
+
+    width: 22.5px;
+    height: 1px;
+
+    background-color: #000000;
+    box-shadow: 0 6px 0 0 #000000, 0 12px 0 0 #000000;
+  }
+
+  .main-nav--closed .main-nav__toggle:hover::before {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.8),
+                0 12px 0 0 rgba(0, 0, 0, 0.8);
+  }
+
+  .main-nav--closed .main-nav__toggle:active::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.5),
+                0 12px 0 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .main-nav--opened .main-nav__toggle {
+    top: 0;
+    right: 0;
+
+    background-color: #ffffff;
+
+
+    &::before,
+    &::after {
+      content: "";
+
+      position: absolute;
+      top: 25px;
+      right: 14px;
+
+      width: 20px;
+      height: 1px;
+
+      background-color: rgba(20, 21, 23, 0.2);
+    }
+
+    &::before {
+      transform: rotate(45deg);
+      box-shadow: none;
+    }
+
+    &::after {
+      transform: rotate(-45deg);
+    }
+
+    &:hover::before,
+    &:hover::after {
+      opacity: 0.8;
+    }
+
+    &:active::before,
+    &:active::after {
+      opacity: 0.5;
+    }
+  }
+
+  .main-nav--closed .site-list__item {
+    display: none;
+  }
+
+  .main-nav--closed .main-nav__wrapper {
+    display: none;
+  }
+
+  .main-nav--opened .main-nav__wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 80px;
+    padding-left: 0;
+    background-color: #ffffff;
+    z-index: 10;
+  }
+
+  .main-nav--nojs .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav--nojs .main-nav__wrapper {
+    position: static;
+    min-height: 0;
+  }
+
+  .main-nav--nojs .site-list__item {
+    display: block;
+  }
+}
+

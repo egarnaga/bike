@@ -11,8 +11,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .page-header {
+    background-color: #ffffff;
     background-image: none;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -47,4 +48,21 @@
   margin: 0 auto;
   padding-top: 255px;
   padding-bottom: 239px;
+}
+
+@media  screen and (max-width: 1200px) {
+  .page-header__wrapper-about-us-and-order {
+    padding-top: 127px;
+    padding-bottom: 120px;
+  }
+}
+
+@media  screen and (max-width: 950px) {
+  .page-header__wrapper-about-us-and-order {
+    max-width: 950px;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+ }
 }
