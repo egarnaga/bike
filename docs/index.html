@@ -60,37 +60,43 @@
         </div>
       </nav>
 
-      <div class="about-us">
-        <div class="about-us__wrapper">
-          <a class="about-us__logo logo">
-            <img src="img/logo.svg" width="68" height="21" alt="Логотип интернет-магазина велосипедов «Moon»">
-          </a>
-          <h1>Мы продаем велосипеды</h1>
-          <p>
-            Наш магазин отбирает только самые лучшие велосипеды для продажи
-          </p>
-        </div>
-      </div>
-
-      <div class="order">
-        <h2 class="visually-hidden">Подобрать велосипед</h2>
-        <div class="order__description">
-          <p>
-            Заполните поля ниже и мы подберем велосипед Вашей мечты
-          </p>
-        </div>
-        <form class="order__form form" action="https://echo.htmlacademy.ru" method="POST">
-          <div class="form__field">
-            <label class="visually-hidden" for="name">Введите Ваше имя</label>
-            <input id="name" type="text" name="name" placeholder="Введите Ваше Имя" required="">
+      <div class="page-header__wrapper-about-us-and-order">
+        <div class="about-us">
+          <div class="about-us__wrapper">
+            <a class="about-us__logo logo">
+              <img src="img/logo.svg" width="68" height="21" alt="Логотип интернет-магазина велосипедов «Moon»">
+            </a>
+            <div class="about-us__heading">
+              <h1>Мы продаем велосипеды</h1>
+            </div>
+            <div class="about-us__description">
+              <p>
+                Наш магазин отбирает только самые лучшие велосипеды для продажи
+              </p>
+            </div>
           </div>
+        </div>
 
-          <div class="form__field">
-            <label class="visually-hidden" for="phone">Введите Ваш номер телефона</label>
-            <input id="phone" type="tel" name="phone" placeholder="Введите Ваш номер телефона" data-mask="+7 (___) ___-__-__" required="">
+        <div class="order">
+          <h2 class="visually-hidden">Подобрать велосипед</h2>
+          <div class="order__description">
+            <p>
+              Заполните поля ниже и мы подберем велосипед Вашей мечты
+            </p>
           </div>
-          <button class="form__button" id="btn" type="submit" aria-label="Подобрать велосипед мечты"><span>Подобрать велосипед мечты</span></button>
-        </form>
+          <form class="order__form form" action="https://echo.htmlacademy.ru" method="POST">
+            <div class="form__field">
+              <label class="visually-hidden" for="name">Введите Ваше имя</label>
+              <input id="name" type="text" name="name" placeholder="Введите Ваше Имя" required="">
+            </div>
+
+            <div class="form__field">
+              <label class="visually-hidden" for="phone">Введите Ваш номер телефона</label>
+              <input id="phone" type="tel" name="phone" placeholder="Введите Ваш номер телефона" data-mask="+7 (___) ___-__-__" required="">
+            </div>
+            <button class="form__button button" id="btn" type="submit" aria-label="Подобрать велосипед мечты"><span>Подобрать велосипед мечты</span></button>
+          </form>
+        </div>
       </div>
     </header>
 
@@ -254,7 +260,7 @@
                 <use xlink:href="#icon-btn-play"></use>
               </svg>
             </button>
-            <iframe class="video__media" allowfullscreen="" allow="autoplay" src="https://www.youtube.com/embed/1W_HfyszbiQ?rel=0&amp;showinfo=0&amp;autoplay=1&amp;enablejsapi=1"></iframe>
+            <!-- <iframe class="video__media" allowfullscreen="" allow="autoplay" src="https://www.youtube.com/embed/1W_HfyszbiQ?rel=0&amp;showinfo=0&amp;autoplay=1&amp;enablejsapi=1"></iframe> -->
           </div>
         </div>
       </section>

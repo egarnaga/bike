@@ -1,0 +1,37 @@
+.site-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.site-list__item {
+  margin-right: 134px;
+  padding-top: 20px;
+  padding-bottom: 9px;
+}
+
+.site-list :last-child {
+  margin-right: 0;
+}
+
+.site-list__link:hover {
+  opacity: 0.8;
+}
+
+.site-list__link:active {
+  opacity: 0.5;
+}
+
+.site-list a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  letter-spacing: -0.005em;
+
+  opacity: 0.7;
+  text-decoration: none;
+}

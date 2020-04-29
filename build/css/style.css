@@ -363,4 +363,207 @@ html {
           box-sizing: inherit; }
 
 body {
-  font-family: "Open Sans", "Arial", sans-serif; }
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal; }
+
+.page-header {
+  background-color: #171717;
+  background-image: url("../img/bg-bike-desktop@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .page-header {
+      background-image: url("../img/bg-bike-desktop@2x.jpg"); } }
+
+@media screen and (max-width: 768px) {
+  .page-header {
+    background-image: none; } }
+  @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), screen and (max-width: 768px) and (min-resolution: 144dpi), screen and (max-width: 768px) and (min-resolution: 1.5dppx) {
+    .page-header {
+      background-image: none; } }
+
+/* @media screen and (max-width: 768px) {
+  .page-header {
+    background-image: url("../img/bg-bike-tablet@1x.jpg");
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../img/bg-bike-tablet@2x.jpg");
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-header {
+    background-image: url("../img/bg-bike-mobile@1x.jpg");
+
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      background-image: url("../img/bg-bike-mobile@2x.jpg");
+    }
+  }
+} */
+.page-header__wrapper-about-us-and-order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 880px;
+  margin: 0 auto;
+  padding-top: 255px;
+  padding-bottom: 239px; }
+
+.main-nav {
+  max-width: 866px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+.main-nav__toggle {
+  margin: 0;
+  padding: 0;
+  display: none; }
+
+.site-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.site-list__item {
+  margin-right: 134px;
+  padding-top: 20px;
+  padding-bottom: 9px; }
+
+.site-list :last-child {
+  margin-right: 0; }
+
+.site-list__link:hover {
+  opacity: 0.8; }
+
+.site-list__link:active {
+  opacity: 0.5; }
+
+.site-list a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  letter-spacing: -0.005em;
+  opacity: 0.7;
+  text-decoration: none; }
+
+.about-us__heading h1 {
+  margin: 0;
+  padding: 0;
+  margin-top: 33px;
+  margin-bottom: 23px;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 64px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF; }
+
+.about-us__description p {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+  opacity: 0.8; }
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 68px;
+  height: 21px;
+  line-height: 0; }
+
+.order {
+  margin-left: 172px;
+  padding-top: 5px; }
+
+.order__description p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -0.005em;
+  color: #FFFFFF; }
+
+.form__field {
+  margin-bottom: 21px; }
+
+.form__field input {
+  width: 327px;
+  margin: 0;
+  padding: 0;
+  padding-top: 13px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #1C1C1C;
+  border: 1px solid #C9CCD4;
+  border-radius: 4px; }
+
+.form__field input:hover {
+  opacity: 0.8; }
+
+.form__field input:active {
+  opacity: 0.5; }
+
+.button {
+  min-width: 325px;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  text-align: left;
+  border: none;
+  border-radius: 6px;
+  background-color: #0AD9C6;
+  cursor: pointer; }
+
+.button:hover {
+  opacity: 0.8; }
+
+.button:active {
+  opacity: 0.5; }
+
+.button span {
+  font-family: "Overpass", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 14px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  color: #000000; }
+
+.page-main {
+  height: 1500px; }
+
+.features {
+  display: none; }
+
+.about-bike {
+  display: none; }
+
+.video {
+  display: none; }
+
+.page-footer {
+  display: none; }
