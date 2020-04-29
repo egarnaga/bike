@@ -839,6 +839,10 @@ body {
     padding-top: 35px;
     padding-bottom: 52px; } }
 
+@media screen and (max-width: 320px) {
+  .page-footer {
+    padding-bottom: 36px; } }
+
 .contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -876,6 +880,10 @@ body {
     font-size: 24px;
     line-height: 30px; } }
 
+@media screen and (max-width: 320px) {
+  .contacts__heading h2 {
+    font-size: 18px; } }
+
 .contacts__address {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -902,9 +910,14 @@ body {
     max-width: 635px;
     margin-bottom: 20px; } }
 
+@media screen and (max-width: 320px) {
+  .contacts__address p {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 20px; } }
+
 .contacts__map {
   position: relative;
-  margin: 1px;
   overflow: hidden; }
 
 .contacts__map iframe {
@@ -922,14 +935,20 @@ body {
 @media screen and (max-width: 740px) {
   .contacts__map iframe {
     width: 100%;
+    height: 255px; } }
+
+@media screen and (max-width: 320px) {
+  .contacts__map iframe {
+    width: 100%;
     height: 250px; } }
 
 .contacts__map img {
   position: absolute;
-  top: 0;
+  top: -3px;
   left: 0;
   z-index: 1;
-  margin: 0; }
+  margin: 0;
+  height: 100%; }
 
 .contacts__wrapper-text {
   display: -webkit-box;
@@ -949,11 +968,30 @@ body {
   .contacts__wrapper-text {
     padding-top: 18px; } }
 
+@media screen and (max-width: 668px) {
+  .contacts__wrapper-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
+@media screen and (max-width: 320px) {
+  .contacts__wrapper-text {
+    padding-top: 27px; } }
+
 .contacts__email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 90px; }
+
+@media screen and (max-width: 668px) {
+  .contacts__email {
+    margin-right: 0;
+    margin-bottom: 22px; } }
 
 .contacts__email a {
   padding-left: 15px;
@@ -969,6 +1007,10 @@ body {
 
 .contacts__email a:active {
   opacity: 0.5; }
+
+@media screen and (max-width: 320px) {
+  .contacts__email a {
+    line-height: 22px; } }
 
 .email__icon {
   margin-top: 2px; }
@@ -993,6 +1035,10 @@ body {
 
 .contacts__phone a:active {
   opacity: 0.5; }
+
+@media screen and (max-width: 320px) {
+  .contacts__phone a {
+    line-height: 22px; } }
 
 .phone__icon {
   margin-top: -4px;
