@@ -1,3 +1,33 @@
 .about-bike {
-  display: none;
+  padding-top: 152px;
+  padding-bottom: 147px;
+  padding-left: 144px;
+  padding-right: 120px;
+
+  background-color: #F6F7F9;
+}
+
+.about-bike__heading {
+  margin-bottom: 50px;
+  margin-left: -33px;
+}
+
+.about-bike__heading h2 {
+  margin: 0;
+
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  color: #1F1F1F;
+}
+
+.about-bike__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
 }
