@@ -814,10 +814,11 @@ body {
     font-weight: 600;
     letter-spacing: 0; } }
 
-.page-main {
+/* .page-main {
   height: 2420px;
-  background-color: #6b55d1; }
-
+  background-color: #6b55d1;
+}
+ */
 .features {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -834,10 +835,29 @@ body {
 
 @media screen and (max-width: 1138px) {
   .features {
-    padding-top: 0;
     padding-bottom: 30px;
     padding-left: 106px;
     padding-right: 106px; } }
+
+@media screen and (max-width: 950px) {
+  .features {
+    padding-top: 0; } }
+
+@media screen and (max-width: 767px) {
+  .features {
+    padding-left: 50px;
+    padding-right: 50px; } }
+
+@media screen and (max-width: 655px) {
+  .features {
+    padding-left: 25px;
+    padding-right: 25px; } }
+
+@media screen and (max-width: 400px) {
+  .features {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 48px; } }
 
 .features__heading {
   margin-bottom: 50px; }
@@ -861,6 +881,11 @@ body {
     padding-left: 3px;
     font-size: 24px;
     line-height: 41px; } }
+
+@media screen and (max-width: 320px) {
+  .features__heading h2 {
+    padding-left: 0;
+    text-align: left; } }
 
 .features__list-wrapper {
   max-width: 1166px;
@@ -889,6 +914,13 @@ body {
   .features__list {
     margin-right: -30px; } }
 
+@media screen and (max-width: 605px) {
+  .features__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 0; } }
+
 .list-features__item {
   max-width: 263px;
   margin-right: 38px;
@@ -902,6 +934,26 @@ body {
   .list-features__item {
     margin-right: 30px; } }
 
+@media screen and (max-width: 605px) {
+  .list-features__item {
+    margin-right: 0; } }
+
+@media screen and (max-width: 400px) {
+  .list-features__item {
+    margin-bottom: 22px; } }
+
+@media screen and (max-width: 400px) {
+  .list-features__item:nth-child(2) {
+    margin-bottom: 47px; } }
+
+@media screen and (max-width: 400px) {
+  .list-features__item:nth-child(3) {
+    margin-bottom: 47px; } }
+
+@media screen and (max-width: 400px) {
+  .list-features__item:nth-child(3) span {
+    margin-bottom: 6px; } }
+
 .list-features__item span {
   display: block;
   margin-bottom: 16px;
@@ -911,6 +963,10 @@ body {
   letter-spacing: -1.27273px;
   color: #0AD9C6; }
 
+@media screen and (max-width: 400px) {
+  .list-features__item span {
+    margin-bottom: 12px; } }
+
 .list-features__item p {
   margin: 0;
   padding-bottom: 10px;
@@ -919,6 +975,10 @@ body {
   line-height: 34px;
   letter-spacing: -0.5px;
   color: #000000; }
+
+@media screen and (max-width: 400px) {
+  .list-features__item p {
+    font-size: 18px; } }
 
 .about-bike {
   display: none; }
