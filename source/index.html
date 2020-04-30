@@ -29,23 +29,23 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a class="site-list__link" href="#">О нас</a>
+              <a class="site-list__link" href="#about-us">О нас</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="#">Виды велосипедов</a>
+              <a class="site-list__link" href="#about-bike">Виды велосипедов</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="#">Видео про велосипеды</a>
+              <a class="site-list__link" href="#video">Видео про велосипеды</a>
             </li>
             <li class="site-list__item">
-              <a class="site-list__link" href="#">Контакты</a>
+              <a class="site-list__link" href="#contacts">Контакты</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <div class="page-header__wrapper-about-us-and-order">
-        <div class="about-us">
+        <div class="about-us" id="about-us">
           <div class="about-us__wrapper">
             <a class="about-us__logo logo">
               <img src="img/logo.svg" width="68" height="21" alt="Логотип интернет-магазина велосипедов «Moon»">
@@ -128,7 +128,7 @@
         </div>
       </section>
 
-      <section class="about-bike">
+      <section class="about-bike" id="about-bike">
         <div class="about-bike__wrapper">
           <div class="about-bike__heading">
             <h2>Виды велосипедов</h2>
@@ -206,7 +206,7 @@
         </div>
       </section>
 
-      <section class="video">
+      <section class="video" id="video">
         <div class="video__wrapper">
           <div class="video__heading">
             <h2>Видео про велосипеды</h2>
@@ -216,7 +216,7 @@
           </div>
 
           <div class="video__image video__image--enabled">
-            <a class="video__link">
+            <a class="video__link" href="#">
               <picture>
                 <!-- 1x: 288px; 2x: 576px -->
                 <source type="image/webp" media="(max-width: 320px)" srcset="img/video-bike--mobile@1x.webp 1x, img/video-bike-mobile@2x.webp 2x">
@@ -233,7 +233,7 @@
                 <!-- 1x: 503px; 2x: 1006px -->
                 <source media="(max-width: 768px)" srcset="img/video-bike-tablet@1x.jpg 1x, img/video-bike-tablet@2x.jpg 2x">
 
-                <!-- 1x: 929x; 2x: 1858px -->
+                <!-- 1x: 929px; 2x: 1858px -->
                 <img src="img/video-bike-desktop@1x.jpg" srcset="img/video-bike-desktop@2x.jpg 2x" width="929" height="522" alt="Превью видео о велосипедах">
               </picture>
             </a>
@@ -251,7 +251,7 @@
     <!-- Подвал -->
 
     <footer class="page-footer">
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <div class="contacts__heading">
           <h2>Как нас найти?</h2>
         </div>

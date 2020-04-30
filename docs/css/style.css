@@ -982,7 +982,7 @@ body {
 
 .about-bike {
   padding-top: 152px;
-  padding-bottom: 147px;
+  padding-bottom: 149px;
   padding-left: 144px;
   padding-right: 120px;
   background-color: #F6F7F9; }
@@ -1200,7 +1200,81 @@ body {
   color: #000000; }
 
 .video {
-  display: none; }
+  padding-top: 121px;
+  padding-bottom: 75px;
+  padding-left: 256px;
+  padding-right: 255px;
+  background-color: #131314;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80.3%, #131314), color-stop(19.7%, #ffffff));
+  background: linear-gradient(#131314 80.3%, #ffffff 19.7%); }
+
+@media screen and (max-width: 1040px) {
+  .video {
+    padding-left: 133px;
+    padding-right: 132px; } }
+
+.video__heading h2 {
+  margin: 0;
+  margin-left: -11px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  text-align: center;
+  color: #FFFFFF; }
+
+.video__description p {
+  max-width: 340px;
+  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  padding-left: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.005em;
+  color: #FFFFFF;
+  opacity: 0.7; }
+
+.video__image {
+  position: relative;
+  max-width: 929px;
+  margin: 0 auto; }
+
+.video__image img {
+  width: 100%;
+  max-width: 929px;
+  height: auto; }
+
+.video__image:hover .video__button {
+  opacity: 0.8; }
+
+.video__image:active .video__button {
+  opacity: 0.5; }
+
+.video__link picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.video__button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer; }
+
+.video__button-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #0AD9C6; }
 
 .page-footer {
   display: -webkit-box;
