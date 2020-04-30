@@ -19,6 +19,10 @@
   display: none;
 }
 
+.main-nav__toggle:active,
+.main-nav__toggle:focus {
+  outline: none;
+}
 
 @media screen and (max-width: 950px) {
 
