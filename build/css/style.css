@@ -987,9 +987,31 @@ body {
   padding-right: 120px;
   background-color: #F6F7F9; }
 
+@media screen and (max-width: 1368px) {
+  .about-bike {
+    padding-left: 114px;
+    padding-right: 90px; } }
+
+@media screen and (max-width: 1311px) {
+  .about-bike {
+    padding-left: 84px;
+    padding-right: 60px; } }
+
+@media screen and (max-width: 1040px) {
+  .about-bike {
+    padding-top: 51px;
+    padding-bottom: 20px;
+    padding-left: 89px;
+    padding-right: 89px; } }
+
 .about-bike__heading {
   margin-bottom: 50px;
   margin-left: -33px; }
+
+@media screen and (max-width: 1040px) {
+  .about-bike__heading {
+    margin-bottom: 29px;
+    margin-left: 0; } }
 
 .about-bike__heading h2 {
   margin: 0;
@@ -999,6 +1021,11 @@ body {
   letter-spacing: -0.005em;
   text-align: center;
   color: #1F1F1F; }
+
+@media screen and (max-width: 1040px) {
+  .about-bike__heading h2 {
+    font-size: 24px;
+    line-height: 41px; } }
 
 .about-bike__list {
   display: -webkit-box;
@@ -1010,9 +1037,27 @@ body {
   padding: 0;
   list-style: none; }
 
+@media screen and (max-width: 1040px) {
+  .about-bike__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: -50px; } }
+
+@media screen and (max-width: 1040px) {
+  .about-bike__item {
+    margin-right: 50px;
+    margin-bottom: 50px; } }
+
 .about-bike__item--road-bike {
   position: relative;
   margin-top: 9px; }
+
+@media screen and (max-width: 1040px) {
+  .about-bike__item--road-bike {
+    margin-top: 0; } }
 
 .about-bike__item--road-bike::before {
   content: "";
@@ -1024,9 +1069,21 @@ body {
   z-index: 1;
   background-image: url("../img/ellipse-1.svg"); }
 
+@media screen and (max-width: 1229px) {
+  .about-bike__item--road-bike::before {
+    top: 201px;
+    left: -38px;
+    width: 127px;
+    height: 127px;
+    background-image: url("../img/ellipse-3.svg"); } }
+
 .about-bike__item--mountain-bike {
   position: relative;
   margin-top: 38px; }
+
+@media screen and (max-width: 1040px) {
+  .about-bike__item--mountain-bike {
+    margin-top: 0; } }
 
 .about-bike__item--mountain-bike::before {
   content: "";
@@ -1038,6 +1095,10 @@ body {
   z-index: 11;
   background-image: url("../img/rectangle-1.svg"); }
 
+@media screen and (max-width: 1070px) {
+  .about-bike__item--mountain-bike::before {
+    background-image: none; } }
+
 .about-bike__item--mountain-bike::after {
   content: "";
   position: absolute;
@@ -1047,6 +1108,10 @@ body {
   height: 47px;
   z-index: 11;
   background-image: url("../img/rectangle-2.svg"); }
+
+@media screen and (max-width: 1070px) {
+  .about-bike__item--mountain-bike::after {
+    background-image: none; } }
 
 .about-bike__item--children-bike {
   position: relative; }
@@ -1061,9 +1126,22 @@ body {
   z-index: 11;
   background-image: url("../img/ellipse-2.svg"); }
 
+@media screen and (max-width: 1229px) {
+  .about-bike__item--children-bike::before {
+    top: -21px;
+    right: -25px;
+    width: 68px;
+    height: 68px;
+    background-image: url("../img/ellipse-4.svg"); } }
+
 .card__img img {
   border-radius: 10px;
   z-index: 10; }
+
+@media screen and (max-width: 1229px) {
+  .card__img img {
+    width: 270px;
+    height: 300px; } }
 
 .card__img picture {
   display: -webkit-box;
