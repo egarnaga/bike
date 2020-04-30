@@ -331,12 +331,14 @@ template {
   font-weight: 700;
   font-style: normal; }
 
-@font-face {
+/* @font-face {
   font-family: "Overpass";
-  src: url("../fonts/overpass-semibold.woff2") format("woff2"), url("../fonts/overpass-semibold.woff") format("woff");
+  src: url("../fonts/overpass-semibold.woff2") format("woff2"),
+    url("../fonts/overpass-semibold.woff") format("woff");
   font-weight: 600;
-  font-style: normal; }
-
+  font-style: normal;
+}
+ */
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -799,7 +801,6 @@ body {
     text-align: center; } }
 
 .button span {
-  font-family: "Overpass", "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -1008,7 +1009,7 @@ body {
   .about-bike {
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 13px; } }
+    padding-bottom: 12px; } }
 
 @media screen and (max-width: 320px) {
   .about-bike {
@@ -1217,6 +1218,17 @@ body {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(77.4%, #131314), color-stop(22.6%, #ffffff));
     background: linear-gradient(#131314 77.4%, #ffffff 22.6%); } }
 
+@media screen and (max-width: 700px) {
+  .video {
+    padding-left: 16px;
+    padding-right: 16px; } }
+
+@media screen and (max-width: 400px) {
+  .video {
+    padding-top: 84px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(82.1%, #131314), color-stop(17.9%, #ffffff));
+    background: linear-gradient(#131314 82.1%, #ffffff 17.9%); } }
+
 .video__heading h2 {
   margin: 0;
   margin-left: -11px;
@@ -1232,6 +1244,10 @@ body {
   .video__heading h2 {
     margin-left: 0;
     font-size: 24px; } }
+
+@media screen and (max-width: 400px) {
+  .video__heading h2 {
+    text-align: left; } }
 
 .video__description p {
   max-width: 340px;
@@ -1252,6 +1268,20 @@ body {
     margin-bottom: 40px;
     margin-left: 26px;
     text-align: center; } }
+
+@media screen and (max-width: 767px) {
+  .video__description p {
+    margin-left: 0;
+    padding-left: 0; } }
+
+@media screen and (max-width: 700px) {
+  .video__description p {
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media screen and (max-width: 400px) {
+  .video__description p {
+    margin-bottom: 53px; } }
 
 .video__image {
   position: relative;
@@ -1291,6 +1321,11 @@ body {
     width: 91px;
     height: 91px; } }
 
+@media screen and (max-width: 450px) {
+  .video__button {
+    width: 65px;
+    height: 65px; } }
+
 .video__button-img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1301,6 +1336,11 @@ body {
   .video__button-img {
     width: 91px;
     height: 91px; } }
+
+@media screen and (max-width: 450px) {
+  .video__button-img {
+    width: 65px;
+    height: 65px; } }
 
 .page-footer {
   display: -webkit-box;
