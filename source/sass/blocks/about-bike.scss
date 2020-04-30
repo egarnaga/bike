@@ -30,6 +30,20 @@
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .about-bike {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .about-bike {
+    padding-top: 53px;
+  }
+}
+
 .about-bike__heading {
   margin-bottom: 50px;
   margin-left: -33px;
@@ -73,13 +87,36 @@
   .about-bike__list {
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: -50px;
+  }
+}
+
+@media  screen and (max-width: 687px) {
+  .about-bike__list {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 @media  screen and (max-width: 1040px) {
   .about-bike__item {
-    margin-right: 50px;
     margin-bottom: 50px;
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .about-bike__item {
+    margin-bottom: 42px;
+  }
+}
+
+@media  screen and (max-width: 1040px) {
+  .about-bike__item:nth-child(1) {
+    margin-right: 50px;
+  }
+}
+
+@media  screen and (max-width: 687px) {
+  .about-bike__item:nth-child(1) {
+    margin-right: 0;
   }
 }

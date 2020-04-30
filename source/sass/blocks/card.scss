@@ -37,6 +37,12 @@
   }
 }
 
+@media  screen and (max-width: 1229px) {
+  .about-bike__item--road-bike::before {
+    left: -24px;
+  }
+}
+
 
 .about-bike__item--mountain-bike {
   position: relative;
@@ -122,6 +128,13 @@
     height: 68px;
 
     background-image: url("../img/ellipse-4.svg");
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .about-bike__item--children-bike::before {
+    top: -20px;
+    right: -15px;
   }
 }
 
