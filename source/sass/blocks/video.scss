@@ -121,13 +121,13 @@
 }
 
 
-.video__image:hover .video__button {
+/* .video__image:hover .video__button {
   opacity: 0.8;
 }
 
 .video__image:active .video__button {
   opacity: 0.5;
-}
+} */
 
 .video__link picture {
   display: flex;
@@ -146,6 +146,19 @@
   border-radius: 50%;
   border: none;
   cursor: pointer;
+}
+
+.video__button:hover {
+  opacity: 0.8;
+}
+
+.video__button:active {
+  opacity: 0.5;
+}
+
+.video__button:active,
+.video__button:focus {
+  outline: none;
 }
 
 @media  screen and (max-width: 1040px) {

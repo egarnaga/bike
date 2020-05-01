@@ -1306,12 +1306,13 @@ body {
   max-width: 929px;
   height: auto; }
 
-.video__image:hover .video__button {
-  opacity: 0.8; }
+/* .video__image:hover .video__button {
+  opacity: 0.8;
+}
 
 .video__image:active .video__button {
-  opacity: 0.5; }
-
+  opacity: 0.5;
+} */
 .video__link picture {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1329,6 +1330,16 @@ body {
   border-radius: 50%;
   border: none;
   cursor: pointer; }
+
+.video__button:hover {
+  opacity: 0.8; }
+
+.video__button:active {
+  opacity: 0.5; }
+
+.video__button:active,
+.video__button:focus {
+  outline: none; }
 
 @media screen and (max-width: 1040px) {
   .video__button {
