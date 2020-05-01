@@ -1325,6 +1325,7 @@ body {
           transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
+  background-color: transparent;
   border-radius: 50%;
   border: none;
   cursor: pointer; }
