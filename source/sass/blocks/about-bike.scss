@@ -82,6 +82,7 @@
 
 .about-bike__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;
   padding: 0;
@@ -116,7 +117,7 @@
 }
 
 @media  screen and (max-width: 1040px) {
-  .about-bike__item:nth-child(1) {
+  .about-bike__item:nth-child(2n+1) {
     margin-right: 50px;
   }
 }
@@ -128,7 +129,7 @@
 } */
 
 @media  screen and (max-width: 687px) {
-  .about-bike__item:nth-child(1) {
+  .about-bike__item:nth-child(2n+1) {
     margin-right: 0;
   }
 }
