@@ -77,6 +77,22 @@
   }
 }
 
+@media  screen and (max-width: 768px) {
+  .contacts__address p {
+    max-width: 645px;
+
+    text-align: left;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  .contacts__address p {
+    max-width: 635px;
+
+    text-align: center;
+  }
+}
+
 @media  screen and (max-width: 320px) {
   .contacts__address p {
     padding-left: 16px;

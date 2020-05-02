@@ -93,16 +93,25 @@
 @media  screen and (max-width: 1040px) {
   .about-bike__list {
     flex-wrap: wrap;
+    margin-right: -50px;
     justify-content: center;
   }
 }
 
-@media  screen and (max-width: 687px) {
+@media  screen and (max-width: 767px) {
+  .about-bike__list {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+}
+
+/* @media  screen and (max-width: 687px) {
   .about-bike__list {
     flex-direction: column;
     align-items: center;
   }
-}
+} */
 
 @media  screen and (max-width: 1040px) {
   .about-bike__item {
@@ -117,19 +126,34 @@
 }
 
 @media  screen and (max-width: 1040px) {
-  .about-bike__item:nth-child(2n+1) {
+  .about-bike__item {
     margin-right: 50px;
   }
 }
 
+@media  screen and (max-width: 767px) {
+  .about-bike__item {
+    margin-right: 0;
+  }
+}
+
+
+
+/* @media  screen and (max-width: 1040px) {
+  .about-bike__item:nth-child(2n+1) {
+    margin-right: 50px;
+  }
+}
+ */
 /* @media  screen and (max-width: 1040px) {
   .about-bike__item:nth-child(2) {
     margin-right: 50px;
   }
 } */
 
-@media  screen and (max-width: 687px) {
-  .about-bike__item:nth-child(2n+1) {
+/* @media  screen and (max-width: 687px) {
+  .about-bike__item {
     margin-right: 0;
   }
 }
+ */

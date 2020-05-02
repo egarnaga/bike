@@ -1071,11 +1071,12 @@ body {
   .about-bike__list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-right: -50px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; } }
 
-@media screen and (max-width: 687px) {
+@media screen and (max-width: 767px) {
   .about-bike__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1083,8 +1084,15 @@ body {
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center;
+    margin-right: 0; } }
 
+/* @media  screen and (max-width: 687px) {
+  .about-bike__list {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
 @media screen and (max-width: 1040px) {
   .about-bike__item {
     margin-bottom: 50px; } }
@@ -1094,18 +1102,30 @@ body {
     margin-bottom: 42px; } }
 
 @media screen and (max-width: 1040px) {
-  .about-bike__item:nth-child(2n+1) {
+  .about-bike__item {
     margin-right: 50px; } }
 
+@media screen and (max-width: 767px) {
+  .about-bike__item {
+    margin-right: 0; } }
+
+/* @media  screen and (max-width: 1040px) {
+  .about-bike__item:nth-child(2n+1) {
+    margin-right: 50px;
+  }
+}
+ */
 /* @media  screen and (max-width: 1040px) {
   .about-bike__item:nth-child(2) {
     margin-right: 50px;
   }
 } */
-@media screen and (max-width: 687px) {
-  .about-bike__item:nth-child(2n+1) {
-    margin-right: 0; } }
-
+/* @media  screen and (max-width: 687px) {
+  .about-bike__item {
+    margin-right: 0;
+  }
+}
+ */
 .about-bike__item--road-bike {
   position: relative;
   margin-top: 9px; }
@@ -1460,6 +1480,16 @@ body {
   .contacts__address p {
     max-width: 635px;
     margin-bottom: 20px; } }
+
+@media screen and (max-width: 768px) {
+  .contacts__address p {
+    max-width: 645px;
+    text-align: left; } }
+
+@media screen and (max-width: 767px) {
+  .contacts__address p {
+    max-width: 635px;
+    text-align: center; } }
 
 @media screen and (max-width: 320px) {
   .contacts__address p {
