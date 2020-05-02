@@ -12,3 +12,12 @@ body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
 }
+
+.body-lock {
+  position: fixed;
+  overflow-y: scroll;
+}
+
+/* .body-lock {
+  overflow: hidden;
+} */

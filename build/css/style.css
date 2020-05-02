@@ -368,6 +368,13 @@ body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal; }
 
+.body-lock {
+  position: fixed;
+  overflow-y: scroll; }
+
+/* .body-lock {
+  overflow: hidden;
+} */
 .page-header {
   background-color: #171717;
   background-image: url("../img/bg-bike-desktop@1x.jpg");
