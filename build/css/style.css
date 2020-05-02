@@ -368,9 +368,10 @@ body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal; }
 
-.body-lock {
-  position: fixed;
-  overflow-y: scroll; }
+@media screen and (max-width: 950px) {
+  .body-lock {
+    position: fixed;
+    overflow-y: scroll; } }
 
 /* .body-lock {
   overflow: hidden;
@@ -577,6 +578,7 @@ body {
     padding-top: 17px;
     padding-bottom: 16px;
     padding-left: 16px;
+    padding-right: 55px;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
