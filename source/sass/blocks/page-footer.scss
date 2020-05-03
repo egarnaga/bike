@@ -1,18 +1,24 @@
 .page-footer {
   display: flex;
   padding-top: 77px;
-  padding-bottom: 159px;
+  padding-bottom: 139px;
 }
 
 @media  screen and (max-width: 1000px) {
   .page-footer  {
     padding-top: 35px;
-    padding-bottom: 52px;
+    padding-bottom: 22px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .page-footer  {
+    padding-top: 38px;
   }
 }
 
 @media  screen and (max-width: 320px) {
   .page-footer  {
-    padding-bottom: 36px;
+    padding-bottom: 16px;
   }
 }

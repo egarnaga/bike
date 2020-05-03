@@ -37,12 +37,18 @@
   }
 }
 
-@media  screen and (max-width: 1229px) {
+/* @media  screen and (max-width: 1229px) {
   .about-bike__item--road-bike::before {
     left: -24px;
   }
 }
+ */
 
+@media  screen and (max-width: 400px) {
+  .about-bike__item--road-bike::before {
+    left: -24px;
+  }
+}
 
 .about-bike__item--mountain-bike {
   position: relative;

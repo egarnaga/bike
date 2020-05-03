@@ -1152,7 +1152,13 @@ body {
     height: 127px;
     background-image: url("../img/ellipse-3.svg"); } }
 
-@media screen and (max-width: 1229px) {
+/* @media  screen and (max-width: 1229px) {
+  .about-bike__item--road-bike::before {
+    left: -24px;
+  }
+}
+ */
+@media screen and (max-width: 400px) {
   .about-bike__item--road-bike::before {
     left: -24px; } }
 
@@ -1403,16 +1409,20 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding-top: 77px;
-  padding-bottom: 159px; }
+  padding-bottom: 139px; }
 
 @media screen and (max-width: 1000px) {
   .page-footer {
     padding-top: 35px;
-    padding-bottom: 52px; } }
+    padding-bottom: 22px; } }
+
+@media screen and (max-width: 768px) {
+  .page-footer {
+    padding-top: 38px; } }
 
 @media screen and (max-width: 320px) {
   .page-footer {
-    padding-bottom: 36px; } }
+    padding-bottom: 16px; } }
 
 .contacts {
   display: -webkit-box;
@@ -1536,7 +1546,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding-left: 195px;
-  padding-top: 34px; }
+  padding-top: 32px; }
 
 @media screen and (max-width: 1439px) {
   .contacts__wrapper-text {
@@ -1547,7 +1557,19 @@ body {
 
 @media screen and (max-width: 1000px) {
   .contacts__wrapper-text {
-    padding-top: 18px; } }
+    padding-top: 16px; } }
+
+@media screen and (max-width: 768px) {
+  .contacts__wrapper-text {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start; } }
+
+@media screen and (max-width: 767px) {
+  .contacts__wrapper-text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
 
 @media screen and (max-width: 668px) {
   .contacts__wrapper-text {
@@ -1561,17 +1583,54 @@ body {
 
 @media screen and (max-width: 320px) {
   .contacts__wrapper-text {
-    padding-top: 27px; } }
+    padding-top: 25px; } }
 
 .contacts__email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 90px; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+  margin-right: 90px;
+  list-style: none; }
+
+@media screen and (max-width: 768px) {
+  .contacts__email {
+    margin-right: 95px; } }
+
+@media screen and (max-width: 767px) {
+  .contacts__email {
+    margin-right: 90px; } }
 
 @media screen and (max-width: 668px) {
   .contacts__email {
     margin-right: 0;
+    margin-bottom: 22px; } }
+
+@media screen and (max-width: 320px) {
+  .contacts__email {
+    margin-bottom: 0; } }
+
+.contacts__email li {
+  margin-bottom: 20px; }
+
+@media screen and (max-width: 768px) {
+  .contacts__email li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 70px; } }
+
+@media screen and (max-width: 767px) {
+  .contacts__email li {
+    padding-left: 0; } }
+
+@media screen and (max-width: 320px) {
+  .contacts__email li {
     margin-bottom: 22px; } }
 
 .contacts__email a {
@@ -1600,7 +1659,23 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 2px; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  list-style: none; }
+
+.contacts__phone li {
+  margin-bottom: 20px; }
+
+@media screen and (max-width: 768px) {
+  .contacts__phone li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
 
 .contacts__phone a {
   padding-left: 15.5px;
@@ -1611,6 +1686,14 @@ body {
   text-decoration: none;
   cursor: pointer; }
 
+@media screen and (max-width: 768px) {
+  .contacts__phone a {
+    padding-left: 14px; } }
+
+@media screen and (max-width: 767px) {
+  .contacts__phone a {
+    padding-left: 4px; } }
+
 .contacts__phone a:hover {
   opacity: 0.8; }
 
@@ -1619,11 +1702,20 @@ body {
 
 @media screen and (max-width: 320px) {
   .contacts__phone a {
+    padding-left: 16px;
     line-height: 22px; } }
 
 .phone__icon {
   margin-top: -4px;
-  margin-left: 2px; }
+  margin-left: -5px; }
+
+@media screen and (max-width: 768px) {
+  .phone__icon {
+    padding-left: 0; } }
+
+@media screen and (max-width: 320px) {
+  .phone__icon {
+    margin-left: -16px; } }
 
 .phone__icon {
   fill: #ffffff; }
