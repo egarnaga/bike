@@ -370,12 +370,8 @@ body {
 
 @media screen and (max-width: 950px) {
   .body-lock {
-    position: fixed;
-    overflow-y: scroll; } }
+    position: fixed; } }
 
-/* .body-lock {
-  overflow: hidden;
-} */
 .page-header {
   background-color: #171717;
   background-image: url("../img/bg-bike-desktop@1x.jpg");
@@ -444,7 +440,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 12;
+    z-index: 1200;
     display: block;
     width: 50px;
     height: 50px;
@@ -510,7 +506,7 @@ body {
     padding-top: 80px;
     padding-left: 0;
     background-color: #ffffff;
-    z-index: 10; }
+    z-index: 1000; }
   .main-nav--nojs .main-nav__toggle {
     display: none; }
   .main-nav--nojs .main-nav__wrapper {
@@ -532,10 +528,9 @@ body {
 
 @media screen and (max-width: 950px) {
   .site-list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; } }
+    display: block;
+    height: 500px;
+    overflow-y: auto; } }
 
 .site-list__item {
   margin-right: 134px;

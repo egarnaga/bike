@@ -9,7 +9,10 @@
 
 @media  screen and (max-width: 950px) {
   .site-list {
-    flex-direction: column;
+    display: block;
+    height: 500px;
+    overflow-y: auto;
+    //flex-direction: column;
   }
 }
 
@@ -18,7 +21,6 @@
   padding-top: 20px;
   padding-bottom: 9px;
 }
-
 
 @media  screen and (max-width: 1200px) {
   .site-list__item {
