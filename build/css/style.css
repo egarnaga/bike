@@ -648,13 +648,13 @@ body {
 
 @media screen and (max-width: 950px) {
   .about-us__heading h1 {
-    margin-top: 110px;
+    margin-top: 90px;
     margin-bottom: 20px;
     text-align: center; } }
 
 @media screen and (max-width: 320px) {
   .about-us__heading h1 {
-    margin-top: 97px;
+    margin-top: 76px;
     margin-bottom: 18px; } }
 
 .about-us__description p {
@@ -683,11 +683,7 @@ body {
     padding-right: 20px; } }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 68px;
-  height: 21px;
+  display: block;
   line-height: 0; }
 
 .order {
