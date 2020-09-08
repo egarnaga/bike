@@ -1,10 +1,8 @@
 # Проект «Велосипеды»
 
-Проект выполнен в рамках учебной стажировки в Акселераторе HTML Academy  
-
 ## Описание проекта
 
-[Демо](https://egarnaga.github.io/bike-project/) | [Техническое задание](specification.md)
+[Демо](https://egarnaga.github.io/bike-project/docs/) | [Техническое задание](specification.md)
 
 * **Стандарты вёрстки:** HTML5, CSS3, прогрессивное улучшение.
 * **Сетка:** определена в макете.
